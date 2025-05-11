@@ -1,0 +1,46 @@
+:root {
+    --text-color: #313131;
+    --main-color: #25A4AD;
+    --detail-color: #F8F8F8;
+}
+
+html {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 62.5%;
+    scroll-behavior: smooth
+}
+
+*,
+::after,
+::before {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit
+}
+
+*:focus {
+    outline: none;
+}
+
+
+body {
+    line-height: 1.6;
+    font-size: 1.6rem;
+    font-family: "gilroy regular";
+    color: var(--text-color);
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.btn {
+    width: 15rem;
+    height: 5rem;
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,162 @@
+@media (max-width:1400px) {}
+
+@media (max-width:1200px) {
+    .services__body * {
+        border-radius: 0 !important;
+        transform: translateY(0) !important;
+
+    }
+
+    .client__coment{
+        font-size: 1.5rem;
+    }
+    .client__name,
+    .client__job{
+        font-size: 1.8rem;
+    }
+    .client__image{
+        display: none;
+    }
+
+    .client__content{
+        border-radius: 15rem 0 15rem 0;
+        padding: 6rem 6rem;
+    }
+}
+
+@media (max-width:992px) {
+
+    .list {
+        display: none;
+    }
+
+    .menu__container {
+        display: flex;
+    }
+
+    .list__mobile {
+        display: flex;
+        width: 100%;
+        height: 0;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        flex-direction: column;
+        text-align: center;
+        padding-top: 1.5rem;
+        border-bottom: 1px solid transparent;
+        overflow: hidden;
+        transition: all ease-in-out .2s;
+    }
+
+    .list__mobile .list__item {
+        margin-bottom: 1rem;
+        margin-right: 0;
+    }
+
+    .list__mobile--open {
+        height: 20rem;
+        border-bottom: 2px solid var(--main-color);
+        background: #ffffff;
+        transition: all ease-in-out .2s;
+    }
+
+    .get__picture {
+        display: none;
+    }
+
+    .content {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .content__second-titel {
+        width: 100%;
+    }
+
+    .content__titel {
+        margin: 0 auto;
+    }
+
+    .content__btns {
+        justify-content: center;
+    }
+
+
+    .get__start {
+        margin-top: 4rem;
+    }
+
+    .brand__container {
+        margin-top: 4rem;
+    }
+
+    .content__info {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .brands {
+        margin-top: 4rem;
+    }
+    .Price__boxes{
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width:768px) {
+
+    .service {
+        width: 30rem;
+        height: 30rem;
+    }
+
+    .faq__header{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer__center{
+        flex-direction: column;
+    }
+
+    .footer__col{
+        margin: 2rem auto;
+        text-align: center;
+    }
+}
+
+@media (max-width:576px) {
+    header {
+        padding-top: 1rem;
+    }
+
+    .header__sign {
+        display: none;
+    }
+
+    .header__bar {
+        justify-content: center;
+    }
+
+    .content__titel,
+    .content__second-titel {
+        font-size: 5rem;
+    }
+
+    .brands>.container {
+        flex-direction: column;
+    }
+
+    .brands>.container>a {
+        margin: 1rem 0;
+    }
+
+    .content__btn {
+        margin-bottom: 2rem;
+    }
+}
+
+@media (max-width:300px) {}

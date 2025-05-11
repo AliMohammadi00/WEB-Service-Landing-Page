@@ -1,0 +1,234 @@
+header {
+    font-family: "gilroy medium";
+    padding-top: 5rem;
+    background: url('../image/header_detail.png') center no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+header::before{
+    content: "";
+    position: absolute;
+    width: 40rem ;
+    height: 40rem;
+    border: 1px solid var(--main-color);
+    top: -10rem;
+    left: -40rem;
+    transform: rotate(30deg);
+}
+
+.header__bar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.list {
+    display: flex;
+}
+
+.list__item {
+    margin-right: 3.5rem;
+}
+
+.list__links {
+    transition: all ease-in-out .2s;
+    cursor: pointer;
+}
+
+.list__links:hover,
+.list__links--active {
+    color: var(--main-color);
+}
+
+.header__sign {
+    display: flex;
+    align-items: center;
+}
+
+.header__sign>a {
+    margin-left: 3.5rem;
+}
+
+.header__btn {
+    border: 1px solid var(--main-color);
+    color: var(--main-color);
+}
+
+.menu__container {
+    width: 5rem;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    display: none;
+}
+
+.menu__btn {
+    display: block;
+    width: 4rem;
+    height: .3rem;
+    border-radius: 100rem;
+    background: var(--main-color);
+    position: relative;
+    transition: all ease-in-out .1s;
+}
+
+.menu__btn::before,
+.menu__btn::after {
+    content: '';
+    display: block;
+    width: 4rem;
+    height: .3rem;
+    border-radius: 100rem;
+    background: var(--main-color);
+    position: absolute;
+    transition: all ease-in-out .2s;
+}
+
+.menu__btn::before {
+    bottom: 1rem;
+}
+
+
+.menu__btn::after {
+    top: 1rem;
+}
+
+.menu__container--active .menu__btn {
+    background-color: transparent;
+}
+
+.menu__container--active .menu__btn::before {
+    transform: translateY(10px) rotate(45deg);
+}
+
+.menu__container--active .menu__btn::after {
+    transform: translateY(-10px) rotate(-45deg);
+}
+
+.list__mobile {
+    display: none;
+}
+
+.get__start {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.content {
+    width: 100%;
+}
+
+.content__titel {
+    max-width: 42rem;
+    font-family: "gilroy thin";
+    font-size: 10rem;
+    font-weight: bold;
+    line-height: 1;
+}
+
+.content__second-titel {
+    font-family: "gilroy semibold";
+    font-size: 10rem;
+    color: var(--main-color);
+    line-height: 1;
+}
+
+.content__info {
+    max-width: 42rem;
+    margin-top: 1.5rem;
+    margin-bottom: 3rem;
+    font-family: "gilroy medium";
+}
+
+.content__btns {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content__btn {
+    border: 1px solid var(--main-color);
+    color: var(--main-color);
+    margin-right: 2rem;
+}
+
+.content__get-start {
+    width: 20rem;
+    background: var(--main-color);
+    color: #ffffff;
+    box-shadow: 0px 5px 15px 4px #25a4ad3d;
+}
+
+.picture__picture {
+    height: 57.3rem;
+}
+footer{
+    background: #2C2C2C;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    margin-top: 10rem;
+    overflow: hidden;
+}
+
+footer::before{
+    content: "";
+    position: absolute;
+    inline-size: 100rem;
+    height: 100rem;
+    background: #313131;
+    transform: rotate(45deg);
+}
+
+.footer__comeback{
+    text-align: center;
+    margin: 3rem auto 0 auto;
+    font-size: 6.5rem;
+    font-family: "gilroy semibold";
+    max-width: 90rem;
+    line-height: 1;
+}
+
+.footer__link{
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    margin: 2rem auto 2rem auto;
+}
+
+.footer__center{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 3.5rem 0;
+}
+
+.footer__col>p{
+    max-width: 25rem;
+    margin-top: 1.3rem;
+}
+
+.footer__col>li{
+    max-width: 15rem;
+    margin-bottom: 2rem;
+}
+
+.footer__col>li>a{
+    color: #ffffff;
+}
+
+.footer__col>li>a:hover{
+    text-decoration: underline;
+}
+.footer__copy-right{
+    text-align: center;
+    margin-bottom: 2rem;
+}
