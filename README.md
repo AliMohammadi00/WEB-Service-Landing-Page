@@ -4,7 +4,7 @@ A modern and responsive landing page template for web service startups and tech 
 
 ### 📸 Preview
 
-![Website Preview](https://github.com/AliMohammadi00/WEB-Service-Landing-Page/blob/master/image/new-screenshot.png)
+![Website Preview](https://github.com/AliMohammadi00/WEB-Service-Landing-Page/blob/master/image/webservicescreenshot.png)
 
 ### ✨ Features
 
